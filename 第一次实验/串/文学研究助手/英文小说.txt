@@ -1,0 +1,9 @@
+DoubleList InitList();
+void Insert(DoubleList *L, int number);
+void Readnumber(DoubleList *L);
+int Length(DoubleList L);
+void Add(DoubleList L1, DoubleList L2, DoubleList *L3);
+void Minus(DoubleList L1, DoubleList L2, DoubleList *L3);
+int Operation(DoubleList L1, DoubleList L2, DoubleList *L3);
+int Size(DoubleList L1, DoubleList L2);
+void Print(DoubleList L);
